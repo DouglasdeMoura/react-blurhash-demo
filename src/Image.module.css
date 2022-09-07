@@ -1,0 +1,24 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  aspect-ratio: var(--aspect-ratio);
+}
+
+.img {
+  aspect-ratio: var(--aspect-ratio);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.8s;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blurhash {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+}

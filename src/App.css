@@ -1,0 +1,15 @@
+.App {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
