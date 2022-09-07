@@ -1,3 +1,5 @@
-# vitejs-vite-14u4qz
+# React Bluhash Demo
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-14u4qz)
+[Leia o artigo](https://douglasmoura.dev/como-criar-placeholders-bonitos-para-suas-imagens/)
+
+[Edite no StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-14u4qz)
