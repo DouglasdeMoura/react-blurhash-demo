@@ -26,12 +26,7 @@ const Image: React.FC<ImageProps> = ({
         className={style.img}
         src={src}
         onLoad={(e) => {
-          const image = e.currentTarget;
-          /* Simula o carregamento lento da imagem */
-          setInterval(() => {
-            image.style.opacity = '1';
-          }, 3000);
-
+          e.currentTarget.style.opacity = '1';
           onLoad?.(e);
         }}
         {...props}

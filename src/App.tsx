@@ -1,17 +1,7 @@
 import './App.css';
-import dog from './assets/dog.jpg';
+import mountain from './assets/mountain.jpg';
 
 import Image from './Image';
-
-export function App2() {
-  return (
-    <div className="App">
-      <h1>React BlurHash Demo</h1>
-
-      <Image src={dog} hash="L%Nm~It7tlof~VWBV@fk%gogaKax" />
-    </div>
-  );
-}
 
 export default function App() {
   return (
@@ -29,7 +19,7 @@ export default function App() {
       </p>
 
       <Image
-        src="https://picsum.photos/seed/picsum/760/235"
+        src={mountain}
         hash="LiN9;7~AIpNGxa%1xaxu9aM|jENG"
         aspectRatio="760/235"
       />
